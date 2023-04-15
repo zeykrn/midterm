@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 20080393, [Github Repo](https://github.com/zeykrn/midterm.git)
 
 # Important Information About Midterm
 
@@ -45,16 +45,16 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
-
+   In my midterm project I found my data set in readme.md file which is https://github.com/rfordatascience/tidytuesday, and I searched the files year by year. Then in 2019 data set file 31st data is data set which I picked. My data set has 2,669 observations and 10 columns. The variables of these columns are game, release date, prices, owners, developers, publisher, average playtime, median playtime and metascore. I only focus on the prices of the video games. I deleted the NA values from data set in order to tidy it.
+   
+   My question is "How pricing affects video games sales?". I found four articles about this question. These articles helped me with the research process. 
+   
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
-
+   Relevant to my question, from the article @{Nair:2004 it is stated that the game prices gradually decline over time to increase production with quote: "Declining prices, and declining sales are consistent with our model of dynamic price skimming in a durable good market. The motivation to inter-temporally price discriminate explains why prices are cut over time. Market saturation, arising from the exit of one-time purchasers from the potential market for each game, explains the declining sales paths.". This situation can also be connected to the console market where older consoles also exhibit declining prices to increase sales of both the games of that console and the console itself from quote: "Displays the prices of the two consoles over time. Similar to many other high-technology products, game consoles exhibit declining prices over time. Prima facie, this appears to be price skimming. The rationale is that firms tar- get game enthusiasts first and then move to the mass market through price cuts.". However, there is an idea that the biggest producers of video games are considered as monopolies and no matter what the price of the game is, people will most of the time buy the game that these companies produce. Examples of these game series can be Call of Duty or Fifa since almost every year another game is produced from one of these series and the sales almost never fail as can be seen from the @{Koskela:2021 with  "Harrison and Kline (2001) show that the ability of firms to extract consumer surplus with an access fee decreases as the number of firms in competition increases, which also shows that two-part prices are not exclusive to monopolies. In addition to this, it also reasonable to assume that video game firms have monopoly power to some extent, as the products differ a lot from each other. (Meagher & Teo, 2005).". 
+   
+   The other price relevance can be said about the "freemium" games where the game itself is free. This does not provide any revenue to the company itself but can provide more people playing the game than the so called "premium" games. Another benefit of these types of games can be the in game sales which can cover the cost of the development of the game itself as can bee seen from @{Rietveld:2018 where "I argue that greater variety (vs. less vari- ety) in a product’s menu of paid items allows heterogeneous consumers to self-select into a combination of options that matches their WTP, increasing a product bundle’s overall revenue generation. The implications of these conjectures are that products brought to market through the freemium business model will be used less and generate less revenues than premium products (keeping all else constant). Firms can partially offset this revenue loss by embedding greater variety in freemium products’ menus of paid items. Support for these arguments is found in a randomized controlled trial of 246 subjects and in a real market sample of 343 digital PC games released in 2014 on the online Steam platform.".
 
 
 **References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
@@ -65,3 +65,12 @@ In this section, discuss the articles you have read on the subject by giving ref
 # References {#references}
 <div id="refs"></div>
 
+Rietveld, J. Creating and capturing value from freemium business models: A demand-side perspective. Strategic Entrepreneurship Journal. 2018; 12: 171– 193. https://doi.org/10.1002/sej.1279
+
+Liu, H. (2010). Dynamics of Pricing in the Video Game Console Market: Skimming or Penetration? Journal of Marketing Research, 47(3), 428–443. https://doi.org/10.1509/jmkr.47.3.428
+
+Harikesh S. Nair. Dynamics of Pricing in Durable Good Markets: Application
+to 32-bit Console Video-Games, September 2004 
+
+Samuli Koskela. PRICING ECONOMICS OF VIDEO GAMES:
+A PANEL DATA STUDY ON THE EFFECTS OF VERSIONING ON REVENUE, University of Oulu, December 2021, 69 + 3
