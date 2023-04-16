@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: Pricing the Sale of Video Games
 author: 
-  - Last Name, First Name[^1]
+  - Zeynep Korun
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
